@@ -150,7 +150,9 @@ int main() {
     };
 
     vector<string> books = {
-            "prudent", "refrain", "sorrow", "usher", "mist", ""
+            "prudent", "refrain", "sorrow", "usher", "mist", "sling", "taut", "tatty", "shabby", "slink", "hustle",
+            "grim", "prerequisite", "constraint", "sartorial", "bland", "savage", "lousy", "fleet", "ruthless",
+            "churn", "cease", "exposure", "stew", "jaded", "notorious", "scrounge"
     };
 
     move(vs1.begin(), vs1.end(), back_inserter(vs));
@@ -158,6 +160,7 @@ int main() {
     move(vs3.begin(), vs3.end(), back_inserter(vs));
     move(vs4.begin(), vs4.end(), back_inserter(vs));
     move(IELTS.begin(), IELTS.end(), back_inserter(vs));
+    move(books.begin(), books.end(), back_inserter(vs));
     move(to_learn.begin(), to_learn.end(), back_inserter(vs));
 
     sort(vs.begin(), vs.end());
