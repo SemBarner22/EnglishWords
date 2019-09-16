@@ -152,7 +152,7 @@ int main() {
     vector<string> books = {
             "prudent", "refrain", "sorrow", "usher", "mist", "sling", "taut", "tatty", "shabby", "slink", "hustle",
             "grim", "prerequisite", "constraint", "sartorial", "bland", "savage", "lousy", "fleet", "ruthless",
-            "churn", "cease", "exposure", "stew", "jaded", "notorious", "scrounge"
+            "churn", "cease", "exposure", "stew", "jaded", "notorious", "scrounge", ""
     };
 
     move(vs1.begin(), vs1.end(), back_inserter(vs));
